@@ -15,7 +15,7 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     # Skip workflow on template repository
-    if: github.repository != 'pycatcedar/fullstack-monorepo-starter'
+    if: github.repository != 'CedarCove/fullstack-monorepo-starter'
 
     steps:
       - name: Checkout code
@@ -61,7 +61,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     # Skip workflow on template repository
-    if: github.repository != 'pycatcedar/fullstack-monorepo-starter'
+    if: github.repository != 'CedarCove/fullstack-monorepo-starter'
 
     steps:
       - name: Checkout code
